@@ -78,6 +78,10 @@ body {
       position: absolute;
       top: 20px;
       left: 35px;
+
+      &.on {
+        background:rgb(246, 6, 6);
+      }
     }
 
     .yellow {
@@ -91,6 +95,10 @@ body {
       position: absolute;
       top: 145px;
       left: 35px;
+
+      &.on {
+        background:yellow
+      }
     }
 
     .green {
@@ -104,6 +112,10 @@ body {
       position: absolute;
       top: 270px;
       left: 35px;
+
+      &.on {
+        background:lime;
+      }
     }
   }
 }
